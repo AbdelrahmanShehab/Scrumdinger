@@ -17,6 +17,10 @@ final class ScrumTimer: ObservableObject {
         var isCompleted: Bool
         /// Id for Identifiable conformance.
         let id = UUID()
+        
+        static var speakers: [Speaker] {
+            [Speaker(name: "Bill", isCompleted: true), Speaker(name: "Cathy", isCompleted: false)]
+        }
     }
     
     /// The name of the meeting attendee who is speaking.
