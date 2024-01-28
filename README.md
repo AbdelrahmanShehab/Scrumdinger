@@ -2,7 +2,7 @@
 
 # Scrumdinger App
 
-Welcome to Scrumdinger, an iOS app that helps teams manage their daily scrums. This module guides you through the development of Scrumdinger, providing a seamless experience for teams looking to enhance their daily stand-up meetings.
+Welcome to Scrumdinger, an iOS app that helps teams manage daily scrums. This module guides you through the development of Scrumdinger, providing a seamless experience for teams looking to enhance their daily stand-up meetings.
 
 ## 🌟 Key Features:
 
@@ -11,6 +11,9 @@ Welcome to Scrumdinger, an iOS app that helps teams manage their daily scrums. T
 - **Scrum Detail and Edit:** Shows more information about a scrum, including attendee names and a list of previous meetings. Users can modify any scrum attribute via the navigation bar. The edit screen includes a color theme picker for meetings, and tapping the top button starts a new meeting timer.
 
 - **Meeting Timer:** The progress bar at the top shows elapsed and remaining time for the meeting. The app displays the current speaker's name in the center and a button to advance to the next attendee at the bottom.
+
+## 📸 Screenshot:
+![scrumdinger-overview-2](https://github.com/AbdelrahmanShehab/Scrumdinger/assets/36604938/d4147551-028b-4bc6-aaaa-23efaf21f6ed)
 
 ## 👨‍💻 Challenges Overcome:
 
@@ -26,7 +29,7 @@ Welcome to Scrumdinger, an iOS app that helps teams manage their daily scrums. T
   
 - **MVVM:** Following the Model-View-ViewModel architectural pattern for a clean and scalable codebase.
 
-- **Speech Recognition:** Integrating speech recognition for live audio to text transcription.
+- **Speech Recognition:** Integrating speech recognition for live audio-to-text transcription.
 
 - **AVFoundation:** Utilizing AVFoundation for playing audio cues such as the "ding" sound.
 
