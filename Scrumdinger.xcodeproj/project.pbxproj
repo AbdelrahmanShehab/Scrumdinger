@@ -88,6 +88,15 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		6316177E2B650BB6002353C9 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				630C19762B33262900A00CD1 /* ScrumTimer.swift */,
+				63C2E1332B35E8A800ECF30B /* SpeechRecognizer.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
 		632533AB2B347EB4008D9CE4 /* Meeting Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +130,7 @@
 				63F930EA2B30A781000FEDE3 /* ScrumdingerApp.swift */,
 				63F930F82B30B3A1000FEDE3 /* Models */,
 				63F931052B30F2FD000FEDE3 /* Views */,
+				6316177E2B650BB6002353C9 /* View Model */,
 				630C197C2B332EB700A00CD1 /* Resources */,
 				63F930EE2B30A785000FEDE3 /* Assets.xcassets */,
 				63F930F02B30A785000FEDE3 /* Preview Content */,
@@ -141,12 +151,10 @@
 			children = (
 				63F930F92B30B3DB000FEDE3 /* Theme.swift */,
 				63F930FB2B30B72A000FEDE3 /* DailyScrum.swift */,
-				630C19762B33262900A00CD1 /* ScrumTimer.swift */,
 				630C197A2B332E9500A00CD1 /* AVPlayer+Ding.swift */,
 				630C19812B333E4400A00CD1 /* History.swift */,
 				632533A32B344C8F008D9CE4 /* ScrumStore.swift */,
 				632533A52B3461FB008D9CE4 /* ErrorWrapper.swift */,
-				63C2E1332B35E8A800ECF30B /* SpeechRecognizer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -410,6 +418,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -441,6 +450,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
